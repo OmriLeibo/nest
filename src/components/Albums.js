@@ -1,21 +1,21 @@
 import React from 'react';
+import Spotify from '../api/Spotify.tsx';
 import './Albums.scss';
 
-
 const Albums = () => {
+  const NEST_LURK_ALBUM =
+    'https://open.spotify.com/album/2OGWGEkVeDkNK6ZGMO7d0V?si=pXSD4jeRTw6-8XV2-Rlwvg';
   return (
     <div className='albums'>
-      <h1>Albums</h1>
-
-      <a href='https://open.spotify.com/album/2OGWGEkVeDkNK6ZGMO7d0V?si=TKdIcRMSRx-ZJzJpJ04ngQ' target='_blank'>
-        <img
-          src='https://i.scdn.co/image/ab67616d0000b27376eafa0fc8297dd85cca65ce'
-          width='25%'
-          alt='nest-logo'
-        />
-      </a>
+      <div className='events__main'>
+        <Spotify link={NEST_LURK_ALBUM} />
+      </div>
     </div>
   );
 };
+
+
+
+// Shaoneez check for props on the /api/spotify.tsx
 
 export default Albums;
