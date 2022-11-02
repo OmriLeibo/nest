@@ -1,9 +1,11 @@
-.navbar__links {
+.header {
+  font-family: 'Monoton', cursive;
+  font-size: 28px;
+  .navbar__links {
     border: 3px solid white;
-    font-family: 'Monoton', cursive;
-    font-size: 28px;
     list-style: none;
     display: flex;
     justify-content: space-around;
     height: 50px;
+  }
 }

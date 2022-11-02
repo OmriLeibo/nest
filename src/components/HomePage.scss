@@ -1,3 +1,20 @@
-.home__main {
+.home-page__main {
+    font-family: 'Monoton', cursive;
     border: 5px solid white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+#nestMembers {
+    cursor: pointer;
+}
+
+.home-page__main > h4 {
+    font-family: 'Monoton', cursive;
+}
+
+.upcoming-shows {
+    width: 40%;
+    height: 120px;
 }
