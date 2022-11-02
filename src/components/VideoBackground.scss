@@ -1,0 +1,10 @@
+#video-bg {
+    object-fit: cover;
+    // width: 25vw;
+    // height: 25vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    box-shadow: 20px 30px 80px black;
+}

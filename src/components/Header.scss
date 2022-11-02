@@ -1,7 +1,10 @@
-.navbar__links {
-    border: 3px solid white;
+.box {
     font-family: 'Monoton', cursive;
     font-size: 28px;
+}
+
+.navbar__links {
+    border: 3px solid white;
     list-style: none;
     display: flex;
     justify-content: space-around;

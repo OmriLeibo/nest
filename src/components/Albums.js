@@ -4,7 +4,7 @@ import './Albums.scss';
 
 const Albums = () => {
   const NEST_LURK_ALBUM =
-    'https://open.spotify.com/album/2OGWGEkVeDkNK6ZGMO7d0V?si=pXSD4jeRTw6-8XV2-Rlwvg';
+    'https://open.spotify.com/album/2OGWGEkVeDkNK6ZGMO7d0V?si=a7aba65fc84146c0';
   return (
     <div className='albums'>
       <div className='events__main'>
